@@ -1,1 +1,12 @@
+spring:
+  application:
+    name: Config-Produc
 
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fecth-register: true
+    regiter-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
